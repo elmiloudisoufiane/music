@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    border: 0;
+    font-family: system-ui;
+}
+
+.sec1{
+    height: 100vh;
+    background: url(billie-eilish.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+
+ul li{
+    display: inline;
+    margin: 20px;
+    text-align: none;
+}
+
+ul li a:hover{
+    color: #d03232;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 0px;
+}
+
+.btn{
+    background: linear-gradient(45deg,  #DE6262, #FFB88C);
+    border-radius: 4px;
+    padding: 10px 50px;
+    transition: 400ms;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:active{
+    scale: 0.96;
+}
+
+.center{
+    height: 80vh;
+    display: grid;
+    align-items: center;
+    margin-left: 70px;
+    width: 500px;
+}
+
+#big{
+    font-size: 4em;
+}
+
+.text{
+    color: white;
+}
+
+span{
+    background-image: linear-gradient(45deg,  #DE6262, #FFB88C);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
