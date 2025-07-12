@@ -4,7 +4,7 @@
     font-family: system-ui;
 }
 
-.sec1{
+.loader{
     height: 100vh;
     background: url(billie-eilish.jpg);
     background-size: cover;
@@ -69,4 +69,35 @@ span{
     background-image: linear-gradient(45deg,  #DE6262, #FFB88C);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+ #loading {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+      color: white;
+      flex-direction: column;
+    }
+
+.logo-icon {
+  font-size: 60px;
+  color: #d03232;
+  animation: pulse 1s infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes pulse {
+  0%   { transform: scale(1); opacity: 1; }
+  50%  { transform: scale(1.2); opacity: 0.7; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+
+.loader {
+  display: none;
 }
